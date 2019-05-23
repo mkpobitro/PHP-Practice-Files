@@ -13,4 +13,11 @@
 */
 
 
+$something = array();
+
+$something['name'] = "Pobitro Raj";//evabe  array er key & value declare kora jai
+$something['city'] = "Rajshahi";
+
+print_r($something);
+
 

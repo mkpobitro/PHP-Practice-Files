@@ -8,7 +8,10 @@
 foreach ($array as $value) {
     এই কোড এক্সিকিউট হবে;
 } 
+আরে এর আরগুমেন্ট গুলাকে রিপিট করা দরকার হলে foreach  ইউস করবো ।
 */
+
+
 $list = ['Home', 'About', 'Blog', 'Service', 'Contact'];
 
 foreach($list as $menu){ ?>
@@ -20,7 +23,6 @@ foreach($list as $menu){ ?>
 foreach($list as $key => $menu){ ?>
     <li><?php echo $menu . " etar index key: ". $key; ?></li>
 <?php } 
-
 
 
 

@@ -1,15 +1,21 @@
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-</head>
-<body>
 <?php
+/*
+do {
+    কোড সম্পাদিত হবে;
+} while (কন্ডিশন সত্য);
+*/
 
+//do while with decrement:
+$a = 45;
+do{
+    echo $a ."<br>";
+    $a--;
+}while($a > 30);
+
+
+
+//Do while with increment:
+echo "<hr><br>";
 $x = 5;
 do{
     echo "the number is $x <br>";
@@ -18,8 +24,3 @@ do{
 while($x <= 100);
 
  ?>
-
-
-
-</body>
-</html>

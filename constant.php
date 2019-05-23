@@ -2,7 +2,7 @@
 
 // constant: 3 parameters('name','value','case-insensitive')
 
-    define('AGE', 21, true);
+define('AGE', 21, true);
         echo age;
 
 echo '<hr>';
