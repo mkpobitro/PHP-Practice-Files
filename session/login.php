@@ -1,6 +1,3 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,6 +32,7 @@
         $error = "<span style='color: red'> Hey! Your Password does not match. Try Again </span>";
     }
 
+
 }
 
 ?>
@@ -49,10 +47,9 @@
 
         <?php
             if(isset($error)){
-                echo $error;
+                echo $error;     
             }
             
         ?>
-
 </body>
 </html>
