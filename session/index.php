@@ -16,7 +16,7 @@
     //isset shorthand system:
     // $email = isset($_POST['email']) ? $_POST['email'] : "";
     // $pass = isset($_POST['pass']) ? $_POST['pass'] : "";
-
+ 
     if(isset($_POST['login'])){
         $email = $_POST['email'];
         $pass = $_POST['pass'];
