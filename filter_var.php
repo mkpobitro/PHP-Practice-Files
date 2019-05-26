@@ -48,6 +48,7 @@ if(filter_var($email, FILTER_SANITIZE_EMAIL)){
 echo "<hr>";
 
 
+
 //================== Variable to check=================
 $str = "<h1>Hello World!</h1>";
 // Remove HTML tags from string
